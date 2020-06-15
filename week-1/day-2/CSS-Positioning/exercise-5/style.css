@@ -1,0 +1,54 @@
+#container  {
+    display: inline-block;
+    position: absolute;
+}
+
+.block  {
+    background-color: #66320e;
+    border: 3px solid black;
+    border-bottom: 2px solid black;
+    width: 84px;
+    height: 83px;
+    position: absolute;
+}
+
+#top2   {
+    left: 85px;
+}
+
+#top3   {
+    left: 170px;
+}
+
+#top4   {
+    left: 255px;
+}
+
+.bottom-half    {
+    border: black solid 3px;
+    border-top: solid black 2px;
+    top: 90px;
+}
+
+#bottom2    {
+    left: 85px;
+}
+
+#bottom3    {
+    left: 170px;
+}
+
+#bottom4    {
+    left: 255px;
+    background-color: black;
+}
+
+#middle {
+    background-color: #8a070a;
+    height: 3px;
+    width: 339px;
+    position: absolute;
+    top: 88px;
+    border-left: solid black 3px;
+    border-right: black solid 3px;
+}

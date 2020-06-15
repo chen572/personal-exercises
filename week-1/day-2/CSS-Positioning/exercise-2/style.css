@@ -1,0 +1,23 @@
+#box    {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: #1702fc;
+}
+
+.both-div   {
+    background-color: #ff171c;
+    position: absolute;
+}
+
+#down   {
+    width: 10px;
+    height: 300px;
+    left: 20px;
+}
+
+#right  {
+    width: 300px;
+    height: 10px;
+    top: 30px;
+}

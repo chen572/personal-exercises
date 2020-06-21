@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+#form {
+    width: 400px;
+    height: 500px;
+    background-color: #19bc9c;
+    left: 35%;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    border: 5px #179e84 solid;
+    border-radius: 2px;
+}
+
+#nameP {
+    padding-top: 50px;
+    padding-left: 30px;
+    position: absolute;
+}
+
+#name {
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 5px;
+    padding-right: 182px;
+}
+
+#salary {
+    float: left;
+    width: 145px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#salaryL {
+    padding-top: 40px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+#birthday {
+    float: left;
+    width: 150px;
+    padding: 2.5px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#birthdayL {
+    padding-top: 40px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+#phone {
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 5px;
+    padding-right: 182px;
+}
+
+#phoneL {
+    padding-top: 30px;
+    padding-left: 30px;
+    position: absolute;
+}
+
+#btn {
+    position: absolute;
+    top: 300px;
+    right: 50px
+}
+
+#error {
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inputs {
+    border: white inset 2px;
+}
+
+#welcomeMsg {
+    color: green;
+    font-size: 40px;
+    margin-top: 200px;
+    margin-left: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#error {
+    color: red;
+}

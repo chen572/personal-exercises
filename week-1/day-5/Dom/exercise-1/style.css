@@ -1,0 +1,9 @@
+body {
+    background-color: blueviolet;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+#container {
+    margin: 200px;
+}

@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr 6fr repeat(3, 2fr) 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 2fr 1fr 3fr 1fr 1fr;
+    grid-template-areas: 
+    "n n n n n n n n n n"
+    ". . . . . . . . . ."
+    ". l . m m m . u u ."
+    ". l . m m m . u u ."
+    ". l . m m m . . . ."
+    ". l . m m m . d d ."
+    ". . . . . . . . . ."
+    "b b b b b b b b b b"
+    ;
+    background-color: #281C1B;
+    background-image: url('https://miro.medium.com/max/960/1*TL6Tv66k8NN3eEhK7xfayg.jpeg');
+}
+
+#nav-bar {
+    grid-area: n;
+    background-color: rgb(179, 57, 57);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 50px 10px inset;
+}
+
+#nav-bar i {
+    color: rgb(245, 246, 250);
+    margin-left: 15px;
+    display: grid;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.nav-items {
+    color: rgb(245, 246, 250);
+    display: grid;
+    align-self: center;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nav-items:hover {
+    color: rgb(179, 57, 57);
+    background-color: rgb(245, 246, 250);
+}
+
+#left-bar {
+    grid-area: l;
+    background-color: #B33939;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 50px 10px inset;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    font-family: 'Cantarell', sans-serif;
+}
+
+.imgIcon {
+    color: #FFFAFA;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+    margin: 0;
+}
+
+.imgC {
+    color: #FFFAFA;
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: 57px;
+    right: 105px;
+}
+
+#left-bar p {
+    display: inline-block;
+    color: rgb(245, 246, 250);
+    font-weight: bold;
+    text-shadow: 4px 4px 5px black;
+    margin: 0;
+}
+
+.city-name {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.temperature {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+
+#left-bar hr {
+    border-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+#middle-bar {
+    grid-area: m;
+    background-color: #B33939;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 50px 10px inset;
+}
+
+#right-bar-up {
+    grid-area: u;
+    background-color: #B33939;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 50px 10px inset;
+}
+
+#right-bar-down {
+    grid-area: d;
+    background-color: #B33939;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 50px 10px inset;
+}
+
+#bottom-bar {
+    grid-area: b;
+    background-color: #B33939;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 50px 10px inset;
+}

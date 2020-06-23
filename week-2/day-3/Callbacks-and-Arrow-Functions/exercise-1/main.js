@@ -42,9 +42,7 @@ const time = new Date();
 
 const getTime = func => { func(time) };
 
-const returnTime = function (time) {
-    console.log('The current time is: ' + time)
-}
+const returnTime = function (time) { console.log('The current time is: ' + time) };
 
 // getTime(returnTime)
 
@@ -64,7 +62,10 @@ const add = (a, b, c) => a + b + c;
 
 // console.log(add(5, 5, 5));
 
-const capitalize = name => name[0].toUpperCase() + name.slice(1, name.length).toLowerCase();
+String.prototype.capitalize = function() { return this[0].toUpperCase() + this.slice(1, this.length).toLowerCase(); }
+
+console.log('bOb'.capitalize());
+// const capitalize = name => name[0].toUpperCase() + name.slice(1, name.length).toLowerCase();
 
 // console.log(capitalize("bOb")) // returns Bob
 // console.log(capitalize("TAYLOR")) // returns Taylor

@@ -94,11 +94,9 @@ const Bank = () => {
 
 
 const SongsManager = () => {
-    const songs = {
+    const songs = {}
 
-    }
-
-    const addSong = (songName, url) => { songs[songName] = url.slice(32, url.length) };
+    const addSong = (songName, url) => { songs[songName] = url.slice(32) };
 
     const getSong = songName => `https://www.youtube.com/watch?v=${songs[songName]}`;
 

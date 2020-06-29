@@ -1,0 +1,48 @@
+{
+    "animal-1": {
+        "name": "Elephant",
+        "weight": "6 tons",
+        "habitat": "africa",
+        "endangered": false,
+        "diet": "vegetation",
+        "vegetation": "100%",
+        "predators": "none",
+        "taste": "1"
+    },
+    
+    "animal-2": {
+        "name": "Cow",
+        "weight": "300 KG",
+        "habitat": "anywhere with grass",
+        "endangered": false,
+        "diet": "vegetation",
+        "vegetation":"100%",
+        "predators": "coyotes, cougars, bobcats, lynx, dogs, wolves, vultures, bears",
+        "taste": "5"
+    },
+    
+    "animal-3": {
+        "name": "Gray Wolf",
+        "weight": "70 KG",
+        "habitat": "northen hamisphere",
+        "endangered": false,
+        "diet": "carnivore",
+        "carnivore": "100%",
+        "predators": "grizzly bears, polar bears, Siberian tigers, scavengers",
+        "taste": "1"
+    },
+    
+    "animal-4": {
+        "name": "Squirrel",
+        "weight": "25 grams",
+        "habitat": "tropical rainforests",
+        "endangered": false,
+        "diet": "insects",
+        "insects": "80%",
+        "vegetables": "10%",
+        "fruits": "7%",
+        "nuts": "3%",
+        "predators": "hawk, owl, fox, coyote, wildcat, weasel, snake",
+        "taste": "2"
+    }
+}
